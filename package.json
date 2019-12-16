@@ -1,0 +1,23 @@
+{
+  "name": "@rhtml/example-application",
+  "version": "0.0.1",
+  "description": "Starter application based on RHTML (Reactive HTML)",
+  "scripts": {
+    "start": "npx parcel ./src/index.html",
+    "build": "npx parcel build ./src/index.html --experimental-scope-hoisting"
+  },
+  "author": "Kristiyan Tachev (@Stradivario)",
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@rhtml/operators": "0.0.2",
+    "@rhtml/hooks": "0.0.2",
+    "@rhtml/graphql": "0.0.2",
+    "@rhtml/components": "0.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  }
+}
